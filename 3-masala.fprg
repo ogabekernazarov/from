@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Victus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-25 07:36:48 PM"/>
+        <attribute name="created" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI1OzA1OjQ3OjUxIFBNOzI5Njg="/>
+        <attribute name="edited" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI1OzA3OjM2OjQ4IFBNOzM7MzA4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, m" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="m" expression="0"/>
+            <for variable="n" start="a" end="b" direction="inc" step="1">
+                <if expression="n%2!=0">
+                    <then>
+                        <assign variable="m" expression="m+n"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

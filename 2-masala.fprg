@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Victus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-25 06:39:54 PM"/>
+        <attribute name="created" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI1OzA1OjQ3OjUxIFBNOzI5Njg="/>
+        <attribute name="edited" value="VmljdHVzO0xBUFRPUC0yQVFJM0JNRzsyMDI0LTA2LTI1OzA2OjM5OjU0IFBNOzE7MzA4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="a" expression="1"/>
+            <input variable="b"/>
+            <assign variable="b" expression="0"/>
+            <input variable="c"/>
+            <output expression="a&gt;b" newline="True"/>
+            <output expression="b&gt;a" newline="True"/>
+            <output expression="c &amp;  &quot; mavjud emas &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
